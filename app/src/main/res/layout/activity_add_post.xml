@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zitano.walter.photography.admin.AddPost">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="8dp"
+            android:entries="@array/entries" />
+
+        <ImageView
+            android:id="@+id/pImageIv"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/attach_image"
+            android:background="@color/purple_500"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/pTitleEt"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter title..." />
+
+        <AutoCompleteTextView
+            android:id="@+id/pDescrEt"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Post Description..."
+             />
+
+       <!-- <EditText
+            android:id="@+id/pLinkEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Post App Link..."
+            android:minHeight="100dp"
+            android:gravity="top" />-->
+
+        <Button
+            android:id="@+id/pUploadBtn"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Walter Photography Admin</string>
+
+    <array name="entries">
+        <item>Portraits</item>
+        <item>Outdoor</item>
+        <item>Studio/Indoors</item>
+        <item>Fashion Photography</item>
+        <item>Baby Bump</item>
+        <item>Traditional</item>
+    </array>
+    <string name="notify">New Photo Added Check it Out</string>
+
+</resources>
